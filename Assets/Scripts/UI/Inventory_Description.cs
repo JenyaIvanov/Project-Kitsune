@@ -11,8 +11,6 @@ namespace Inventory.UI
         [SerializeField]
         private Image itemImage;
 
-        private bool test;
-
         [SerializeField]
         private TMP_Text itemTitle;
 
