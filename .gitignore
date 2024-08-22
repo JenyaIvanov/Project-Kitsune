@@ -1,0 +1,11 @@
+/Temp/*
+/Library/*
+/Packages/*
+/Logs/*
+/UserSettings/*
+/.vs/*
+/obj/*
+Assembly-CSharp.csproj
+/Builds/*
+/Assets/Downloaded_Assets/*
+/Assets/TextMesh Pro/*

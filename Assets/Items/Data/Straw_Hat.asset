@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c8a44706762a6143853cb07153ee032, type: 3}
+  m_Name: Straw_Hat
+  m_EditorClassIdentifier: 
+  <IsStackable>k__BackingField: 0
+  <MaxStacckSize>k__BackingField: 1
+  <Name>k__BackingField: Straw Hat
+  <Description>k__BackingField: A hat knitted together with straw.
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: d68d0f9c54dabfb4c9421a57ff71a197, type: 3}
+  <DefaultParametersList>k__BackingField:
+  - itemParameter: {fileID: 11400000, guid: 46ae2ee468865fc4dae48ea40e1f7d53, type: 2}
+    valueToChange: 5
+  <actionSFX>k__BackingField: {fileID: 8300000, guid: 490bfbc72255342408984f60044487de, type: 3}
