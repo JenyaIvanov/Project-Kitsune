@@ -1,3 +1,4 @@
+using Inventory.Model;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -12,6 +13,12 @@ namespace Inventory.UI
 
         [SerializeField]
         private RectTransform contentPanel;
+
+        [SerializeField]
+        private RectTransform modifiersContentPanel;
+
+        [SerializeField]
+        private GameObject modifiersPanel;
 
         [SerializeField]
         private Inventory_Description itemDescription;
@@ -143,6 +150,9 @@ namespace Inventory.UI
         {
             itemDescription.ResetDescription();
             actionPanel.Toggle(false);
+
+            modifiersPanel.SetActive(false);
+
         }
 
         public void AddAction(string actionName, Action performAction)
@@ -163,9 +173,21 @@ namespace Inventory.UI
             ResetDraggedItem();
         }
 
-        internal void UpdateDescription(int itemIndex, Sprite itemImage, string name, string description)
+        internal void UpdateDescription(int itemIndex, Sprite descriptionImage, string itemName, string description, InventoryItem inventoryItem)
         {
-            itemDescription.SetDescription(itemImage, name, description);
+            ResetSelection();
+            itemDescription.SetDescription(descriptionImage, itemName, description);
+            
+            if(inventoryItem.itemState.Count == 0)
+            {
+                modifiersPanel.SetActive(false);
+            } else
+            {
+                modifiersPanel.SetActive(true);
+                itemDescription.SetModifiers(inventoryItem);
+            }
+            
+
         }
 
         internal void ResetAllItems()

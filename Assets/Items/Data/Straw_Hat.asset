@@ -17,6 +17,7 @@ MonoBehaviour:
   <Name>k__BackingField: Straw Hat
   <Description>k__BackingField: A hat knitted together with straw.
   <ItemImage>k__BackingField: {fileID: 21300000, guid: d68d0f9c54dabfb4c9421a57ff71a197, type: 3}
+  <DescriptionImage>k__BackingField: {fileID: 21300000, guid: b68c93e7d0f96ca45a5039bee1fbe352, type: 3}
   <DefaultParametersList>k__BackingField:
   - itemParameter: {fileID: 11400000, guid: 46ae2ee468865fc4dae48ea40e1f7d53, type: 2}
     valueToChange: 5

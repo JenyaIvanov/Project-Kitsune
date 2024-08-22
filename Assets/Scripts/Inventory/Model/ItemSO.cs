@@ -26,6 +26,9 @@ namespace Inventory.Model
         public Sprite ItemImage { get; set; }
 
         [field: SerializeField]
+        public Sprite DescriptionImage { get; set; }
+
+        [field: SerializeField]
         public List<ItemParameter> DefaultParametersList { get; set; }
     }
 

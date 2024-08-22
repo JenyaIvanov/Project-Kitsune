@@ -13,6 +13,9 @@ namespace Inventory.Model
         public string ActionName => "Eat";
 
         [field: SerializeField]
+        public Color ParameterColor { get; private set; }
+
+        [field: SerializeField]
         public AudioClip actionSFX { get; private set; }
 
         public bool PerformAction(GameObject character, List<ItemParameter> itemState = null)

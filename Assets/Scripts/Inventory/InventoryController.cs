@@ -138,24 +138,7 @@ namespace Inventory
 
 
             ItemSO item = inventoryItem.item;
-            string description = PrepareDescription(inventoryItem);
-            inventoryUI.UpdateDescription(itemIndex, item.ItemImage, item.name, description);
-        }
-
-        private string PrepareDescription (InventoryItem inventoryItem)
-        {
-            StringBuilder sb = new StringBuilder();
-            sb.Append(inventoryItem.item.Description);
-            sb.AppendLine();
-
-            for (int i = 0; i < inventoryItem.itemState.Count; i++)
-            {
-                sb.Append($"{inventoryItem.itemState[i].itemParameter.ParameterName} " + 
-                    $": {inventoryItem.itemState[i].valueToChange} / " +
-                    $"{inventoryItem.item.DefaultParametersList[i].valueToChange}");
-                sb.AppendLine();
-            }
-            return sb.ToString();
+            inventoryUI.UpdateDescription(itemIndex, item.DescriptionImage, item.Name, item.Description, inventoryItem);
         }
 
         public void Update()

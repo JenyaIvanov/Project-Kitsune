@@ -18,8 +18,10 @@ MonoBehaviour:
   <Description>k__BackingField: A round, edible fruit that, when eaten once a day,
     keeps the doctor away.
   <ItemImage>k__BackingField: {fileID: 21300000, guid: 271789a09b7b68c44996302224d4d9bf, type: 3}
+  <DescriptionImage>k__BackingField: {fileID: 21300000, guid: 79ab0c5e74b78344482a47910d2d0497, type: 3}
   <DefaultParametersList>k__BackingField: []
   modifiersData:
   - statModifier: {fileID: 11400000, guid: 4c6bf0820fc45e746bf4e4b8965e299e, type: 2}
     valueToModify: 1
+  <ParameterColor>k__BackingField: {r: 0, g: 0, b: 0, a: 0}
   <actionSFX>k__BackingField: {fileID: 8300000, guid: ba39bf8baf6d13046889b2d64822381a, type: 3}

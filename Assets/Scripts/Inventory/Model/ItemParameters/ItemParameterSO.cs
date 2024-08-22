@@ -8,6 +8,9 @@ namespace Inventory.Model
     public class ItemParameterSO : ScriptableObject
     {
         [field: SerializeField]
+        public Color ParameterColor { get; private set; }
+
+        [field: SerializeField]
         public string ParameterName { get; private set; }
 
     }

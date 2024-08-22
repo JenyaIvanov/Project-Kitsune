@@ -10,6 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a753be701cf300e42acc978660ed3c14, type: 3}
-  m_Name: LUKParameter
+  m_Name: HealthRegenParameter
   m_EditorClassIdentifier: 
-  <ParameterName>k__BackingField: LUK
+  <ParameterColor>k__BackingField: {r: 0.972549, g: 0.7426799, b: 0.22352937, a: 1}
+  <ParameterName>k__BackingField: Health Regen

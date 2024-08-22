@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c8a44706762a6143853cb07153ee032, type: 3}
+  m_Name: Angeling_Hat
+  m_EditorClassIdentifier: 
+  <IsStackable>k__BackingField: 0
+  <MaxStacckSize>k__BackingField: 1
+  <Name>k__BackingField: Angeling Hat
+  <Description>k__BackingField: A hat knitted together with straw.
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: ede955b41feb61346867e6d35f00175f, type: 3}
+  <DescriptionImage>k__BackingField: {fileID: 21300000, guid: 3f0ec9e8c1fc3bb4caddbe5f014b2928, type: 3}
+  <DefaultParametersList>k__BackingField:
+  - itemParameter: {fileID: 11400000, guid: 5de1cc5139d6d214ca65565efeef2eef, type: 2}
+    valueToChange: 5
+  - itemParameter: {fileID: 11400000, guid: 74580ab7d8ed49d49b81dc6588725289, type: 2}
+    valueToChange: 5
+  - itemParameter: {fileID: 11400000, guid: 105a15add6b17ea45b1f2085ddf1e513, type: 2}
+    valueToChange: 5
+  - itemParameter: {fileID: 11400000, guid: 55a81979334f462459b07feb8a52283b, type: 2}
+    valueToChange: 20
+  - itemParameter: {fileID: 11400000, guid: fd104acd8adb64e4e823c512beef61c9, type: 2}
+    valueToChange: 3
+  - itemParameter: {fileID: 11400000, guid: c14e1e71a76fe074a8f0b19ea3d362ca, type: 2}
+    valueToChange: 2
+  - itemParameter: {fileID: 11400000, guid: 0f01ba2a1dce43341a019e789f574252, type: 2}
+    valueToChange: 50
+  - itemParameter: {fileID: 11400000, guid: c1c31e45ee84fe4479bb44651b071882, type: 2}
+    valueToChange: 2
+  - itemParameter: {fileID: 11400000, guid: a4c3a82a3993c1b43aab05cd1b2b390d, type: 2}
+    valueToChange: 5
+  - itemParameter: {fileID: 11400000, guid: 96ef897d794e45e4690f2c205767226e, type: 2}
+    valueToChange: 3
+  - itemParameter: {fileID: 11400000, guid: a0becacd04640344884ba8d87c7d832c, type: 2}
+    valueToChange: 1
+  - itemParameter: {fileID: 11400000, guid: 06011a6e1c939c4468685092fe9874e9, type: 2}
+    valueToChange: 10
+  <actionSFX>k__BackingField: {fileID: 8300000, guid: 490bfbc72255342408984f60044487de, type: 3}
