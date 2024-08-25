@@ -24,6 +24,11 @@ namespace Inventory.UI
         private Inventory_Description itemDescription;
 
         [SerializeField]
+        private GameObject itemDescriptionPanel;
+
+        private bool itemDescriptionPanelOpen = false;
+
+        [SerializeField]
         private MouseFollower mouseFollower;
 
         List<Inventory_Item> listOfItems = new List<Inventory_Item>();
@@ -41,8 +46,8 @@ namespace Inventory.UI
         {
             HideItem();
             mouseFollower.Toggle(false);
-            itemDescription.ResetDescription();
-        }
+            HideDescription();
+    }
 
         public void InitializeInventoryUI(int inventorySize)
         {
@@ -195,6 +200,31 @@ namespace Inventory.UI
             foreach (var item in listOfItems)
             {
                 item.ResetData();
+            }
+        }
+
+        private void HideDescription()
+        {
+            itemDescriptionPanel.SetActive(false);
+            itemDescriptionPanelOpen = false;
+            ResetSelection();
+        }
+
+        private void ShowDescription()
+        {
+            ResetSelection();
+            itemDescriptionPanel.SetActive(true);
+            itemDescriptionPanelOpen = true;
+        }
+
+        public void ToggleDescription()
+        {
+            if (itemDescriptionPanelOpen)
+            {
+                HideDescription();
+            } else
+            {
+                ShowDescription();
             }
         }
     }
