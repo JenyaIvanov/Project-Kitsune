@@ -44,3 +44,6 @@ MonoBehaviour:
   - itemParameter: {fileID: 11400000, guid: 06011a6e1c939c4468685092fe9874e9, type: 2}
     valueToChange: 10
   <actionSFX>k__BackingField: {fileID: 8300000, guid: 490bfbc72255342408984f60044487de, type: 3}
+  frontSprite: {fileID: -1677321855, guid: c66ccb93fb0a4954984f5b873904216e, type: 3}
+  sideSprite: {fileID: -930386590, guid: c66ccb93fb0a4954984f5b873904216e, type: 3}
+  headgearAnimator: {fileID: 9100000, guid: 11d1d034db0797349a73727a685ea189, type: 2}

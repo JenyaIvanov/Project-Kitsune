@@ -22,3 +22,6 @@ MonoBehaviour:
   - itemParameter: {fileID: 11400000, guid: 46ae2ee468865fc4dae48ea40e1f7d53, type: 2}
     valueToChange: 5
   <actionSFX>k__BackingField: {fileID: 8300000, guid: 490bfbc72255342408984f60044487de, type: 3}
+  frontSprite: {fileID: -1368902104, guid: 05d443c3b3b4be648b5489caecbcc8f6, type: 3}
+  sideSprite: {fileID: -2003046694, guid: 05d443c3b3b4be648b5489caecbcc8f6, type: 3}
+  headgearAnimator: {fileID: 9100000, guid: f2693823c6beb4345882ee308a803e35, type: 2}

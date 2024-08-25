@@ -17,16 +17,25 @@ public class PlayerController : MonoBehaviour
 
     public SpriteRenderer spriteRenderer;
     public SpriteRenderer headRenderer;
+    public SpriteRenderer headgearRenderer;
 
     public float Temp_AttackCD_Time = 500;
     private float Temp_AttackCD = 0;
 
     public GameObject hitBox;
 
+    public string playerDirection;
+    private AgentHeadgear playerHeadgear;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerDirection = "Front";
+    }
+
+    public void Set_Player_Direction(string direction)
+    {
+        playerHeadgear.Sprite_Direction(playerDirection);
     }
 
     // Update is called once per frame
@@ -57,6 +66,7 @@ public class PlayerController : MonoBehaviour
         {
             spriteRenderer.flipX = true;
             headRenderer.flipX = true;
+            headgearRenderer.flipX = true;
 
             hitBox.transform.position += new Vector3(0.5f,0,0);
 
@@ -67,6 +77,7 @@ public class PlayerController : MonoBehaviour
         {
             spriteRenderer.flipX = false;
             headRenderer.flipX = false;
+            headgearRenderer.flipX = false;
 
             hitBox.transform.position += new Vector3(-0.5f, 0, 0);
 
